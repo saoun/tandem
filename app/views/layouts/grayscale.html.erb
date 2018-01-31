@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rights Forward</title>
+  <%= stylesheet_link_tag 'grayscale/manifest.css', media: 'all' %>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300|Work+Sans:100" rel="stylesheet">
+
+
+  <%= javascript_include_tag 'application.js' %>
+  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<%= yield %>
+
+</body>
+</html>
