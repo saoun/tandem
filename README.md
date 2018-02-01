@@ -1,3 +1,3 @@
 # Consultancy Website
 
-Visit at: www.rightsfwd.org
+Visit at: www.tandem.work
